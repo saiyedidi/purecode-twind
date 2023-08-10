@@ -1,0 +1,118 @@
+.navbar{
+    background-color: #111827;
+    display: flex;
+    padding: 10px;
+  }
+  ul{
+    margin: 0px;
+  }
+  .logo img {
+    width: 50px;
+  }
+  .flex-cls ul li {
+    display: inline-block;
+    color: #fff;
+    padding-right: 12px;
+    text-transform: capitalize;
+    color: #8aa3af;
+  }
+  .flex-cls ul li:hover {
+    cursor: pointer;
+  }
+  .flex-cls {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 90%;
+    align-items: center;
+  }
+  
+  .flex-cls i.fa.fa-search {
+    position: absolute;
+    left: 7px;
+    top: 9px;
+  }
+  .right-nav i {
+    color: #787d89;
+  }
+  .flex-cls ::placeholder {
+    padding-left: 29px;
+  }
+  li.user-info i.fa.fa-user-circle-o {
+    padding-right: 5px;
+  }
+  .navbar i.fa.fa-bars { 
+    display: none;
+  }
+  .right-nav {
+    display: flex;
+    gap: 12px;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-nav i.fa.fa-search {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  .search{
+    position: relative;
+  }
+  .right-nav i.fa.fa-search {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  
+  .right-nav input[type="text"] {
+    background: transparent;
+    border: 1px solid #cccccc3d;
+    border-radius: 10px;
+    padding: 8px;
+  }
+  .flex-cls i.fa.fa-angle-down {
+    padding-left: 5px;
+    /* padding-top: 2px; */
+  }
+  .flex-cls ul li i {
+    padding-right: 5px;
+  }
+  .Fitbit div {
+    color: #8a8d94;
+  }
+  .logo {
+    display: flex;
+    flex-basis: 10%;
+  }
+  @media(max-width:768px){
+    .flex-cls,.navbar{
+      display: block;
+    }
+    .flex-cls ul li{
+      display: block;
+      display: block;
+      padding: 10px;
+    }
+    .flex-cls ul{
+      padding: 0px;
+    }
+    .navbar i.fa.fa-bars {
+      color: #fff;
+      font-size: 25px;
+      position: absolute;
+      right: 21px;
+      top: 22px;
+      display: block;
+  }
+  .right-nav{
+    display: none;
+  }
+  ui{
+    padding: 0px;
+  }
+  }
+  
+  
+  
